@@ -17,7 +17,7 @@ The project is divided into 3 main steps:
 * It was found that while labelling process some of the words were mapped with multiple entities. One of the idea was to remove such sentence but due to data crunch     the such words were preprocessed by removing the multi entity mappings.
 * Also, sentence tokenization was done by only selecting the sentences with confidential information.
 
-### Model Training:
+### 3.) Model Training:
 To help me with this we came across a really awesome open-source python library called **SpaCy**, which is a library for advanced Natural Language Processing.
 SpaCy is amazing and helps to show the grammatical structure of text through a range of linguistic annotations. It can identify different attributes about the text such as: the base word form; if the word contains alphabetic characters or digits; sentence boundary detection and can tag parts-of-speech words e.g. if the word is a noun, verb, adjective etc.
 
