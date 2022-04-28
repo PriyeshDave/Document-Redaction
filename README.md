@@ -29,11 +29,11 @@ Retraining the models is not about getting them to memorise more examples but ge
 
 ### 5.) Building Pipeline:
  We built REST API's using **flask** for each of the tasks described above.
-** preprocess : Used for achieving the preprocessing the labelled data.
-** databalancing : The databalancing was done as the count of entities that were been labelled were not balanced. 
-** modeltraining : This is used for entire model training.
-** entityprediction : It makes use to trained model to identify the confidential words in the document.
-** stopServer
+* **/preprocess** : Used for achieving the preprocessing the labelled data.
+* **/databalancing** : The databalancing was done as the count of entities that were been labelled were not balanced. 
+* **/modeltraining** : This is used for entire model training.
+* **/entityprediction** : It makes use to trained model to identify the confidential words in the document.
+* **/stopServer** : Fianlly this endpoint is called for stopping the server.
 
 
 
