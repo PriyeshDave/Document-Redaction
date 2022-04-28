@@ -7,7 +7,7 @@ This project revolves around the ability to recognise sensitive words within doc
 Redaction is the actual process of removing sensitive information from documents. It typically involves someone manually going through a document word by word looking for sensitive information to remove — which of course is a very time consuming and tedious task that is prone to human error. The objective of this project is to build a Machine Learning model that identifies the confidential words from the documents by considering the fact that information of the document is retained.
 
 # Approach
-The project is divided into 3 main steps:
+The project is divided into 5 main steps:
 
 ### 1.) Data Collection:
 * We used LabelBox for labeling the entities in the documents.
@@ -26,6 +26,15 @@ Retraining the models is not about getting them to memorise more examples but ge
 * We setup a demo database on Azure for fetching the identified confidential words for model retraining.
 * To actually use these words to retrain an existing model, the start index and the end index of each of the words in relation to the whole file needs to be acquired.
 * How the retraining happens is, it takes the words from the database and assigns them the label based on the existing knowledge our model has. Then it compares it with the actual label, if the predicted and actual lables don't match it updates it weights to gain the correct result next time. The updates to the model are then saved to the model to update it.
+
+### 5.) Building Pipeline:
+ We built REST API's using **flask** for each of the tasks described above.
+** preprocess : Used for achieving the preprocessing the labelled data.
+** databalancing : The databalancing was done as the count of entities that were been labelled were not balanced. 
+** modeltraining : This is used for entire model training.
+** entityprediction : It makes use to trained model to identify the confidential words in the document.
+** stopServer
+
 
 
 
