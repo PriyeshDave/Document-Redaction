@@ -21,6 +21,12 @@ The project is divided into 3 main steps:
 To help me with this we came across a really awesome open-source python library called **SpaCy**, which is a library for advanced Natural Language Processing.
 SpaCy is amazing and helps to show the grammatical structure of text through a range of linguistic annotations. It can identify different attributes about the text such as: the base word form; if the word contains alphabetic characters or digits; sentence boundary detection and can tag parts-of-speech words e.g. if the word is a noun, verb, adjective etc.
 
+### 4.) Retraining Model
+Retraining the models is not about getting them to memorise more examples but getting the individual models to improve their algorithms so that they can be used to generalise across more and more documents.
+* We setup a demo database on Azure for fetching the identified confidential words for model retraining.
+* To actually use these words to retrain an existing model, the start index and the end index of each of the words in relation to the whole file needs to be acquired.
+* How the retraining happens is, it takes the words from the database and assigns them the label based on the existing knowledge our model has. Then it compares it with the actual label, if the predicted and actual lables don't match it updates it weights to gain the correct result next time. The updates to the model are then saved to the model to update it.
+
 
 
 
