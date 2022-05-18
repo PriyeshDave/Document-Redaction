@@ -1,0 +1,4 @@
+['remote "origin"']
+    url = https://dagshub.com/Omdena/Redactable.dvc
+['remote "myremote"']
+    url = gdrive://1jPdghTm19xYog4QYD68x-G2QRLmzQNkJ
