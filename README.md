@@ -1,7 +1,7 @@
 # Document-Redaction
 ![Python](https://img.shields.io/badge/Python-3.9-blueviolet)
 ![Machine Learning](https://img.shields.io/badge/-Machine%20Learning-blue)
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-LSTM-lightgrey)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-lightgrey)
 ![Natural Language Processing](https://img.shields.io/badge/NLP-SpaCy-blue)
 ![Cloud](https://img.shields.io/badge/Database-Azure-blue)
 ![Streamlit](https://img.shields.io/badge/Framework-Flask-yellow)
