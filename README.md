@@ -1,4 +1,11 @@
 # Document-Redaction
+![Python](https://img.shields.io/badge/Python-3.9-blueviolet)
+![Machine Learning](https://img.shields.io/badge/-Machine%20Learning-blue)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-LSTM-lightgrey)
+![Natural Language Processing](https://img.shields.io/badge/NLP-SpaCy-blue)
+![Cloud](https://img.shields.io/badge/Database-Azure-blue)
+![Streamlit](https://img.shields.io/badge/Framework-Flask-yellow)
+
 ![Page-Document-Redaction1](https://user-images.githubusercontent.com/81012989/165745898-fed65b54-553a-42e4-a5dd-0fa4b4b9f89e.jpg)
 
 This project revolves around the ability to recognise sensitive words within documents. To do this I am making  use of Natural Language Processing (NLP) where the focus is on Named Entity Recognition which searches a body of text and classifies named entities into predefined categories.
